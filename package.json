@@ -1,10 +1,9 @@
 {
   "name": "underline",
   "main": "./lib/underline",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Underline a heading, e.g. for **reStructuredText** or Markdown -- *quick & easy*.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "underline:create"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
