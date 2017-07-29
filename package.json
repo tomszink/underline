@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "underline:create"
   },
-  "repository": "https://github.com/atom/underline",
+  "repository": "https://github.com/tomszink/underline",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
