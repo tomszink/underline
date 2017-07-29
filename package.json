@@ -1,0 +1,18 @@
+{
+  "name": "underline",
+  "main": "./lib/underline",
+  "version": "0.0.0",
+  "description": "Underline a heading, e.g. for **reStructuredText** or Markdown -- *quick & easy*.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "underline:create"
+  },
+  "repository": "https://github.com/atom/underline",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
