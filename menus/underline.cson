@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Underline'
+      'command': 'underline:create'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Underline'
+      'submenu': [
+        {
+          'label': 'Create underline'
+          'command': 'underline:create'
+        }
+      ]
+    ]
+  }
+]
