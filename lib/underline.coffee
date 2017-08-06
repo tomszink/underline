@@ -26,6 +26,7 @@ module.exports = Underline =
       # get the char left to the current position
       chr = editor.getTextInBufferRange([curPoint,
                       [curPoint.row,curPoint.column-1]])
+      # console.log('Character code left to cursor: ' + chr.charCodeAt(0))
 
       # calculate how many chars are to be inserted above
       lineAbove = editor.lineTextForBufferRow(curPoint.row-1)
