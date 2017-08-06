@@ -43,3 +43,10 @@ You can invoke the command using one of the following methods:
 * Use the keyboard shortcut: ```ctrl-alt-h```
 * Use the context menu -> *Underline*
 * Us the menu "Packages" -> "Underline" -> *Create underline*
+
+
+## FAQ
+
+- I want to underline with a "~" (or "´", "`"), but why do I get a strange character ("ª") when I try to run the underline command?
+
+  - The reason is that the editor is still in a special mode after typing "~", "´" or "`" and interprets the keyboard shortcut differently. You first have to press space therefore and then the keyboard shortcut.

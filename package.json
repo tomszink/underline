@@ -1,8 +1,8 @@
 {
   "name": "underline",
   "main": "./lib/underline",
-  "version": "0.1.0",
-  "description": "Underline a heading, e.g. for **reStructuredText** or Markdown -- *quick & easy*.",
+  "version": "0.1.1",
+  "description": "Quickly underline a heading, e.g. for reStructuredText or Markdown",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "underline:create"
