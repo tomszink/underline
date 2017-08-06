@@ -1,7 +1,7 @@
 {
   "name": "underline",
   "main": "./lib/underline",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Quickly underline a heading, e.g. for reStructuredText or Markdown",
   "keywords": [],
   "activationCommands": {
