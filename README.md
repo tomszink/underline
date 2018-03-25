@@ -1,10 +1,12 @@
 # underline package
 
-Underline a heading, e.g. for **reStructuredText** or Markdown -- *quick & easy*.
+Underline a heading, e.g. for **reStructuredText** or Markdown --
+*quick & easy*.
 
 ## Usage
 
-Invoke the "underline" command to underline a line of text with the character typed last below that line.
+Invoke the "underline" command to underline a line of text with the character
+typed last below that line.
 
 Example:
 
@@ -13,7 +15,8 @@ A headline you typed
 -
 ```
 
-If in this situation, i.e. after typing "-" and the cursor is next to "-", you invoke the command, it will result in underlining the heading text with "-"
+If you invoke at this state the command (i.e. after typing "-" and the cursor
+is next to "-"), it will result in underlining the heading text with "-"
 
 ```
 A headline you typed
@@ -34,7 +37,8 @@ A headline you typed
 ~~~~~~~~~~~~~~~~~~~~
 ```
 
-This is useful for **reStructuredText** or Markdown flavors, in case you use this kind of heading style.
+This is useful for **reStructuredText** or Markdown flavours, in case you use
+this kind of heading style.
 
 ## Command invocation
 
@@ -47,6 +51,9 @@ You can invoke the command using one of the following methods:
 
 ## FAQ
 
-- I want to underline with a "~" (or "´", "`"), but why do I get a strange character ("ª") when I try to run the underline command?
+- I want to underline with a "~" (or "´", "`"), but why do I get a strange
+  character ("ª") when I try to run the underline command?
 
-  - The reason is that the editor is still in a special mode after typing "~", "´" or "`" and interprets the keyboard shortcut differently. You first have to press space therefore and then the keyboard shortcut.
+  - The reason is that the editor is still in a special mode after typing
+    "~", "´" or "`" and interprets the keyboard shortcut differently.
+    You first have to press space therefore and then the keyboard shortcut.
